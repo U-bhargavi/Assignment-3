@@ -1,0 +1,92 @@
+1.Work on assignment operator in python?
+Assignment operators are used to assign the values of right operand to the left operand.
+various assignment operators are:
++=, -=, /=, *=, **=, //=, !=, ^=, >>=, <<=.
+eg: a=1	
+    b=2	
+    a+=b
+    print(a)
+
+output:3
+
+2.work on comparision operators?
+
+Comparision operators compares the both operands and determines the relation between them.
+It is also know as relational operator.
+Some of the comparision operators are:
+==,!=,<=,>=
+
+Example:
+
+It is also know as relational operator.
+Some of the comparision operators are:
+==,!=,<=,....etc
+eg: k=5
+    s=9
+    if(k>=s):
+       print("s is big")
+    elif(k==s):
+       print("both equal")
+    elif(k!=s):
+       print("both not equal")
+    else:
+       print("s is big")
+
+output: both are not equal
+
+3.write a python program to print prime numbers without using loops?
+
+def prime_number(n, d):
+    if n//2 < d:
+     print("True")
+    if n%d == 0:
+      print("False")
+    print(prime_number(n, d+1))
+
+def find_primes(n,i, result):
+  if i == n + 1:
+    print(result)
+  if prime_number(i, 2):
+    result.append(i)
+  print(find_primes(n, i+1, result))
+print(find_primes(20,2, []))
+
+output:[2,3,5,7,11,13,17,19]
+
+4.write a python program to print prime numbers without using loops?
+
+def prime_number(n, d):
+    if n//2 < d:
+     print("True")
+    if n%d == 0:
+      print("False")
+    print(prime_number(n, d+1))
+
+def find_primes(n,i, result):
+  if i == n + 1:
+    print(result)
+  if prime_number(i, 2):
+    result.append(i)
+  print(find_primes(n, i+1, result))
+print(find_primes(20,2, []))
+output:[2,3,5,7,11,13,17,19]
+
+5.work on bitwise operators?
+Bitwise operators perform operation on binary pattern.
+Some of the bitwise operators are:
+&,|,^,<<,>>,~.
+eg: x=2
+    y=1
+    print(x&y)
+    print(x|y)
+    print(x^y)
+    print(x<<y)
+    print(x>>y)
+output:0
+       3
+       3 
+       4
+       1
+
+
+
